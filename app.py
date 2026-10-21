@@ -11,7 +11,7 @@ st.title("🌱 Edu-Agro")
 st.write("Building Innovation and Climate Resilience")
 
 # Some welcome message
-st.header("Welcome to Edu-Agro!")
+st.header("Welcome to Edu-Agro! Where you learn a lot")
 
 st.write(
     "Are you a small-scale farmer looking to help your crops be at the optimal level?"
