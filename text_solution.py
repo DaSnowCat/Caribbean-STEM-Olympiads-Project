@@ -1,3 +1,4 @@
+# This is the text-based solution for Edu-Agro. This is where we planned before building our actual project.
 # Name of Competition: Caribbean STEM Olympaids - Coding Level II - 2027
 # Names of Participants: Khalia Lewis, L'amour Austin, Rachael Givians, Deshawn Jones
 
