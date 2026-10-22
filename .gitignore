@@ -1,0 +1,11 @@
+# Ignore API key
+config.py
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore environment variables
+.env
