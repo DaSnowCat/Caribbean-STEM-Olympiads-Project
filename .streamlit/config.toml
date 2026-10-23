@@ -3,10 +3,11 @@
 #This is temporary and will use CSS later down in our development.
 
 [theme]
-textColor="#003c00"
+backgroundColor = "#c5c5c5"
+textColor="#000000"
 linkColor="darkOrchid"
-backgroundColor = "#FFD6A5"
 
 #Theme color for the sidebar of the app
 [theme.sidebar]
-backgroundColor = "pink"
+textColor="#ffffff"
+backgroundColor = "#494949"
