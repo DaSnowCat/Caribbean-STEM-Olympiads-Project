@@ -1,5 +1,5 @@
 # Ignore API key
-config.py
+secret_stuff.py
 
 # Ignore Python cache
 __pycache__/
@@ -9,3 +9,4 @@ __pycache__/
 
 # Ignore environment variables
 .env
+
