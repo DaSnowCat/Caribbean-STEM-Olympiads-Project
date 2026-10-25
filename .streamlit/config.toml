@@ -3,10 +3,17 @@
 #This is temporary and will use CSS later down in our development.
 
 [theme]
-textColor="#003c00"
-linkColor="darkOrchid"
-backgroundColor = "#FFD6A5"
+base = "light"
+textColor="#024102"
+linkColor="#65edff"
+backgroundColor = "#ddfdb0"
+primaryColor = "#ff0090"
+secondaryBackgroundColor = "#cce5fd"
+font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito"
+baseRadius = "medium"
+buttonRadius = "full"
+borderColor = "#00591e"
 
 #Theme color for the sidebar of the app
 [theme.sidebar]
-backgroundColor = "pink"
+backgroundColor = "#eeed9b"
