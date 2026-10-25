@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("References Page")
+st.title("Reference Page")

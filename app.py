@@ -2,18 +2,25 @@
 import streamlit as st
 
 
+# Setting page configuration
+st.set_page_config(
+    page_title="Edu Agro",
+    page_icon="🍀",
+    layout="wide",
+    initial_sidebar_state="expanded",
+)
+
+
 # MAIN HOMEPAGE
 
 
 # Main title
 edu_agro = "Edu-Agro"
 st.title("🌱 Edu-Agro")
-st.title("""
-    :red[E]:orange[d]:green[u] :blue[A]:violet[g]:red[r]:blue[o]
-    """)
 
 # Edu-Agro tagline
 st.write("Building Innovation and Climate Resilience")
+
 
 # Some welcome message
 st.header("Welcome to Edu-Agro! Where you learn a lot")
@@ -51,7 +58,7 @@ with col2:
     weather_button = st.button("Weather App")
 
 with col3:
-    st.subheader("AI Assistant Chatbot")
+    st.subheader("AI Assistant Chatbot", text_alignment="justify")
     st.write("Have queries? Check out our AI assitant chatbot!")
     ai_chatbot_button = st.button("AI Chatbot")
 
@@ -64,19 +71,15 @@ with col4:
     assessment_button = st.button("Farm Assessment")
 
 with col5:
-    st.subheader("Farmer Market")
+    st.subheader("Farmer Market", text_alignment="justify")
     st.write("Advertise your crops on the market online! Check out here!")
     buisness_button = st.button("Farmer's Market")
 
 with col6:
-    st.subheader("Reference Page")
+    st.subheader("Reference Page", text_alignment="justify")
     st.write("This is our reference page where we gather our data.")
     reference_button = st.button("References")
 
-# education_button = st.button("Farming Techniques")
-# weather_button = st.button("Weather App")
-# ai_chatbot_button = st.button("AI Chatbot")
-# assessment_button = st.button("Farm Assessment")
 
 # Condition for when buttons are clicked
 if education_button:
