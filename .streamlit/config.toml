@@ -15,5 +15,6 @@ buttonRadius = "full"
 borderColor = "#00591e"
 
 #Theme color for the sidebar of the app
-[theme.sidebar]
-backgroundColor = "#eeed9b"
+#[theme.sidebar]
+#backgroundColor = "#eeed9b"
+#textColor="#ffffff"
