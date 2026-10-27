@@ -1,14 +1,13 @@
 # IMPORTS
 import streamlit as st
 import requests
-from secret_stuff import secrets  # secret_stuff file is used to hide the api key
+# secret_stuff file is used to hide the api key
 
 # Page Title
 st.title("Weather App")
 
 # API Key
-api_key = secrets.get("api_key")
-
+api_key = st.secrets["api_key"]
 # User can input name of city
 user_input = st.text_input("Enter city: ")
 
