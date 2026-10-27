@@ -19,5 +19,5 @@ linkColor="darkOrchid"
 
 #Theme color for the sidebar of the app
 #[theme.sidebar]
+#backgroundColor = "#eeed9b"
 #textColor="#ffffff"
-#backgroundColor = "#494949"

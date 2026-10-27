@@ -10,3 +10,5 @@ __pycache__/
 # Ignore environment variables
 .env
 
+#Ignore Test File
+test_file.py
