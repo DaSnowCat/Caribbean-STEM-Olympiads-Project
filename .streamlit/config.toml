@@ -4,16 +4,16 @@
 
 [theme]
 base = "light"
-textColor="#024102"
+textColor="#f8dae3"
 linkColor="#65edff"
-backgroundColor = "#ddfdb0"
+backgroundColor = "#48010190"
 primaryColor = "#ff0090"
 secondaryBackgroundColor = "#cce5fd"
 font = "Nunito:https://fonts.googleapis.com/css2?family=Nunito"
 baseRadius = "medium"
-buttonRadius = "full"
-borderColor = "#00591e"
+buttonRadius = "medium"
+borderColor = "#addee9"
 
 #Theme color for the sidebar of the app
 [theme.sidebar]
-backgroundColor = "#eeed9b"
+backgroundColor = "#644b0e"

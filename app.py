@@ -4,7 +4,7 @@ import streamlit as st
 
 # Setting page configuration
 st.set_page_config(
-    page_title="Edu Agro",
+    page_title="Edu-Agro",
     page_icon="🍀",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -15,8 +15,8 @@ st.set_page_config(
 
 
 # Main title
-edu_agro = "Edu-Agro"
-st.title("🌱 Edu-Agro")
+edu_agro = "🌱 Edu-Agrooooo"
+st.title(edu_agro)
 
 # Edu-Agro tagline
 st.write("Building Innovation and Climate Resilience")
